@@ -1,2 +1,3 @@
-export const reverseString = (str: string): string =>
-	str.split("").reverse().join("");
+const reverseStr = (str: string): string => str.split("").reverse().join("");
+
+export default reverseStr;

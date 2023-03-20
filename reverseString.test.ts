@@ -1,9 +1,9 @@
-import { reverseString } from "./reverseString";
+import reverseStr from "./reverseString";
 
 test("car should be rac", () => {
-	expect(reverseString("car")).toBe("rac");
+	expect(reverseStr("car")).toBe("rac");
 });
 
 test("hello should be olleh", () => {
-	expect(reverseString("hello")).toBe("olleh");
+	expect(reverseStr("hello")).toBe("olleh");
 });
