@@ -23,5 +23,5 @@ test("10 / 2 should be 5", () => {
 test("10 / 0 should throw an error", () => {
 	expect(() => {
 		Calculator.divide(10, 0);
-	}).toThrow();
+	}).toThrow(Error);
 });
